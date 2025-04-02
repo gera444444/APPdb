@@ -106,9 +106,4 @@ if __name__ == '__main__':
     app.run(debug=True)
     
 
-import sqlite3
-
-# Подключение к базе данных 
-conn = sqlite3.connect('cars.db')
-cursor = conn.cursor()
 
